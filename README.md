@@ -6,11 +6,13 @@ The main goal of this project is to understand how different AI agents can work 
 
 
 ## How It Works
+
 The application uses four agents:
-1.Orchestrator Agent – Manages the workflow and connects the other agents.
-2.Researcher Agent – Searches the web and collects relevant information using Tavily.
-3.Analyst Agent – Uses the collected research to prepare a structured market research report.
-4.Critic Agent – Reviews the report and provides feedback if improvements are needed.
+
+- **Orchestrator Agent**: Manages the workflow and coordinates the other agents.
+- **Researcher Agent**: Searches the web and collects relevant information using Tavily.
+- **Analyst Agent**: Uses the collected research to prepare a structured market research report.
+- **Critic Agent**: Reviews the report and provides feedback if improvements are needed.
 
 The workflow is:
 
