@@ -38,28 +38,24 @@ If the critic finds issues, the orchestrator asks the AI to revise the report on
 
 ## Project Structure
 
-AI Traineeship/
-│
+```text
+Multiagent-Market-Research/
 ├── app.py
 ├── requirements.txt
 ├── README.md
 ├── sample_output.md
-├── .env
 ├── .env.example
 ├── .gitignore
-│
 ├── agents/
 │   ├── __init__.py
 │   ├── researcher.py
 │   ├── analyst.py
 │   ├── critic.py
 │   └── orchestrator.py
-│
-├── services/
-│   ├── __init__.py
-│   ├── llm.py
-│   └── web_search.py
-
+└── services/
+    ├── __init__.py
+    ├── llm.py
+    └── web_search.py
 ```
 ## Setup and Installation
 
@@ -124,6 +120,3 @@ The generated report includes:
 - Sources
 - Missing Information
 
-## Notes
-- The quality of the report depends on the information returned by the web search results.
-- The critic reviews the report using the same collected research data. It does not independently verify information from external sources.
