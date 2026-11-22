@@ -24,6 +24,6 @@ def analyst_agent(query: str, research: list) -> str:
         "Rules:\n"
         "Use only facts, numbers, and URLs from the research without making anything up.\n"
         "Include dates or time periods for numbers when stated in the sources.\n"
-        "Do not use tables, HTML tags like <br>, inline citations like [Wikipedia], or any closing disclaimer at the end."
+        "Do not use tables, HTML tags like <br>, inline citations like [Wikipedia], parenthetical source labels like (source: Wikipedia), or any closing disclaimer at the end."
     )
     return generate_response(prompt)
